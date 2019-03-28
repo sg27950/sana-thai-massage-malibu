@@ -1,4 +1,5 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
+import massage from './../images/massage.jpeg';
 
 const GlobalStyle = createGlobalStyle`
   *, *:before, *:after {
@@ -13,17 +14,22 @@ const GlobalStyle = createGlobalStyle`
     background-color: #161719;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
   }
   html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
+    background-image:url(${massage});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   a {
     color: #e07628;
     text-decoration: none;
   }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;
