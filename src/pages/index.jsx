@@ -97,8 +97,8 @@ const Index = () => (
   <>
     <Layout />
 
-    <Parallax pages={6}>
-      <Hero offset={0}>
+    <Parallax pages={8}>
+      <Hero offset={0.1}>
         <BigTitle>Sana Thai Massage Malibu</BigTitle>
         <Subtitle>Experience the best healing from the best healer.</Subtitle>
         <Button
@@ -109,7 +109,7 @@ const Index = () => (
           Book an appointment now
         </Button>
       </Hero>
-      <Projects offset={1}>
+      <Projects offset={2}>
         <Title>Services</Title>
         <ProjectsWrapper>
           <ProjectCard
@@ -167,7 +167,7 @@ const Index = () => (
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
-      <About offset={3.5}>
+      <About offset={5}>
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Sana" />
@@ -186,20 +186,17 @@ const Index = () => (
           limited mobility. Her services include Thai, TMJ, Swedish, deep
           tissue. She recently incorporated CBD oil into her massage services
           and that is an available option if you are looking for extra healing.
-          When Sana is not a masseuse you will always find her traveling to
-          expand her masseuse experiences and enjoying new cuisines and sights.
           She has traveled and massaged at New York, her other home as well. She
-          lives with her husband, son, and Siberian Husky in Los Angeles. She
-          lives with her youngest son in New York. She believes massage is very
-          important if done routinely and correctly because it comes with a mass
-          side of benefits and a more refreshed feeling. Sana is always open for
-          ways to enhance and improve her massage. She can take requests or
-          anything to provide the best possible experience. Recently, she has
-          incorporated CBD oil with her technique to improve muscle and mind.
+          believes massage is very important if done routinely and correctly
+          because it comes with a mass side of benefits and a more refreshed
+          feeling. Sana is always open for ways to enhance and improve her
+          massage. She can take requests or anything to provide the best
+          possible experience. Recently, she has incorporated CBD oil with her
+          technique to improve muscle and mind.
         </AboutDesc>
       </About>
 
-      <Contact offset={4.6}>
+      <Contact offset={7}>
         <Inner>
           <Title>By Appointment Only</Title>
 
