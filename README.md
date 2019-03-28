@@ -143,3 +143,4 @@ import 'typeface-open-sans';
 This starter uses [typefaces](https://github.com/KyleAMathews/typefaces) by Kyle Mathews. Have a look at the repository if you want to install & use other fonts.
 
 You'll also need to configure `fonts` in `tailwind.js` to reflect the changes. You then can use the fonts with `font-sans` and `font-serif`.
+# sana-thai-massage-malibu
