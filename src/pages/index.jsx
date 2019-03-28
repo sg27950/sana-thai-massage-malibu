@@ -97,7 +97,7 @@ const Index = () => (
   <>
     <Layout />
 
-    <Parallax pages={5.5}>
+    <Parallax pages={6}>
       <Hero offset={0}>
         <BigTitle>Sana Thai Massage Malibu</BigTitle>
         <Subtitle>Experience the best healing from the best healer.</Subtitle>
